@@ -34,6 +34,7 @@ const newArray = teamsFootball.map(({nameTeam, fouls})=>{
 
     // return nameTeam + " falli subiti :" + fouls; // sintassi alternativa
     
+    // return nameTeam + fouls;
 
 });
 
