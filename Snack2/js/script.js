@@ -28,7 +28,7 @@ const teamsFootball = [
 
 const newArray = teamsFootball.map(({nameTeam, fouls})=>{
     
-    fouls = randomNum (1,50);
+    fouls = randomNum (0,50);
 
     return `${nameTeam}, falli subiti: ${fouls}`;
 
