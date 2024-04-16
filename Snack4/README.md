@@ -10,7 +10,7 @@ array benzina
 array diesel
 array altro
 
-Devo creare un ciclo for per controllare tutti gli oggetto presenti nell' array.
+Devo creare un ciclo forEach per controllare tutti gli oggetto presenti nell' array.
 Ogni elemento corrente deve essere controllato e se la sua alimentazione corrisponde all'alimentazione dell' array lo pusho al suo interno.
 
 LOGICA
