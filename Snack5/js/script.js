@@ -19,21 +19,21 @@ let infoPersone = [];
 
 let siGuida = "Questa persona può guidare";
 
-let noGuida = "Questa persona può guidare";
+let noGuida = "Questa persona non può guidare";
 
 persone.forEach((curPersona)=>{
     if(curPersona.età <= 60 && curPersona.età >= 18) {
         console.log("Questa persona può guidare", curPersona);
-        infoPersone.push(curPersona);
+        infoPersone.push(curPersona, siGuida);
         
     } else {
         console.log("Questa persona non può guidare" , curPersona);
-        infoPersone.push(curPersona);
+        infoPersone.push(curPersona, noGuida);
     }
 
     
     
 });
 
-console.log(infoPersone , )
+console.log(infoPersone)
 
