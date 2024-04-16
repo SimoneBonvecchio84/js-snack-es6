@@ -16,7 +16,7 @@
   Se il peso della bici corrente è inferiore a minWheit aggiorna il peso della bici corrente
 
   Condizione
-   Se il peso della bici corrente è minore di minWeight:
+    Se il peso della bici corrente è minore di minWeight:
     Aggiorna minWeight con il peso della bici corrente (curBike.weight)
     Aggiorna minName con il nome della bici corrente (curBike.name)
 

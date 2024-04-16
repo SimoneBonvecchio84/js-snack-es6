@@ -21,15 +21,13 @@ const arrayBikes = [
 const minBike = document.getElementById("minBike");
 let minWeight = arrayBikes[0].weight; 
 let minName = arrayBikes[0].name;
-arrayBikes.forEach((curBike)=>{
-    const { name, weight} = curBike; 
-    
-      for (let i = 1; i < arrayBikes.length; i++) {
-        if (arrayBikes[i].weight < minWeight) {
+
+for (let i = 1; i < arrayBikes.length; i++) {
+    if (arrayBikes[i].weight < minWeight) {
             minWeight = arrayBikes[i].weight;
             minName = arrayBikes[i].name;
-        }
-    }    
-}); 
+    }
+}    
+
 
 minBike.innerHTML += `${minName} ${minWeight}`;

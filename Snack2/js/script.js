@@ -24,13 +24,15 @@ const teamsFootball = [
 ];
 
 
-
+// copia l array base e ne crea uno nuovo e ci ridarà lo stesso numero di elementi di partenza ma modificati. 
 
 const newArray = teamsFootball.map(({nameTeam, fouls})=>{
     
     fouls = randomNum (1,50);
 
     return `${nameTeam}, falli subiti: ${fouls}`;
+
+    // return nameTeam + " falli subiti :" + fouls; // sintassi alternativa
     
 
 });
