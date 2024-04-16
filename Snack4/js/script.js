@@ -47,9 +47,9 @@ const automobili = [
 
 
   automobili.forEach((curAuto)=>{
-      if(curAuto.alimentazione === "benzina" ) {
+      if(curAuto.alimentazione === "benzina") {
         benzina.push(curAuto);
-      } else if(curAuto.alimentazione === "diesel" ) {
+      } else if(curAuto.alimentazione === "diesel") {
         diesel.push(curAuto);
       } else {
         altro.push(curAuto);
