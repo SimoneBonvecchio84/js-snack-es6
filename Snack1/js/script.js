@@ -18,16 +18,19 @@ const arrayBikes = [
     }
 ];
 
-const minBike = document.getElementById("minBike");
-let minWeight = arrayBikes[0].weight; 
-let minName = arrayBikes[0].name;
+const minBikeElem = document.getElementById("minBike");
+// let minWeight = arrayBikes[0].weight; 
+// let minName = arrayBikes[0].name;
+
+let minBike = arrayBikes[0];
 
 for (let i = 1; i < arrayBikes.length; i++) {
-    if (arrayBikes[i].weight < minWeight) {
-            minWeight = arrayBikes[i].weight;
-            minName = arrayBikes[i].name;
+    if (arrayBikes[i].weight < minBike.weight) {
+            minBike = arrayBikes[i];
+            console.log(minBike);
+           
     }
 }    
 
 
-minBike.innerHTML += `${minName} ${minWeight}`;
+minBikeElem.innerHTML += `${minBike.name} ${minBike.weight}`;

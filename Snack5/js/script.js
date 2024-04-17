@@ -30,8 +30,6 @@ persone.forEach((curPersona)=>{
         console.log("Questa persona non può guidare" , curPersona);
         infoPersone.push(curPersona, noGuida);
     }
-
-    
     
 });
 
